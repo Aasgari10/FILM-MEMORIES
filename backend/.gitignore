@@ -1,0 +1,40 @@
+# backend/.gitignore
+# وابستگی‌ها
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# محیط‌های توسعه
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# لاگ‌ها
+*.log
+logs/
+
+# پوشه آپلود
+uploads/
+temp/
+
+# سیستم‌عامل
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Build
+dist/
+build/
+coverage/
+
+# MongoDB
+*.pid
+data/db/
